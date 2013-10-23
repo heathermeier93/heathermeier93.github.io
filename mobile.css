@@ -3,79 +3,121 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Helvetica;
-}
+    body {
+        font-family: Helvetica;
+        background: lightgrey;
+    }
 
-header {
-    text-align: center;
-    background: silver;
-    width: 100%;
-    padding: 20px;
-}
+    header {
+        text-align: center;
+        background: #003366;
+        width: 100%;
+        padding: 20px;
+        opacity: .7;
+    }
 
-h1 {
-    font-family: Georgia;
-    font-size: 42px;
-    font-weight: normal;
-}
+    h1 {
+        font-family: 'Marcellus SC', serif;
+        font-size: 44px;
+        font-weight: normal;
+        color: white;
+    }
 
-.nav li {
-    display: inline-block;
-    margin-top: 10px;
-}
+    .nav li {
+        display: inline-block;
+        margin-top: 10px;
+    }
 
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    font-family: Helvetica;
-    margin-right:10px;
-}
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: silver;
+        font-weight: bold;
+        font-family: 'Ruda', sans-serif;
+        margin: 5px;
+        text-transform: uppercase;
+    }
 
-.container {
-    max-width: 800px;
-}
+    .container {
+        max-width: 800px;
+    }
 
-.about {
-    clear: left;
-    position: relative;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid gray;
-}
+    .about {
+        clear: left;
+        position: relative;
+        padding-bottom: 10px;
+    }
 
-.me {
-    float: left;
-}
+    .aboutme {
+        text-align: center;
+        font-size: 16px;
+        font-family: arial;
+        text-align: justify;
+        padding: 10px 10px 20px;
+        border-bottom: 1px solid white
+    }
 
-h2 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px;
-}
+    .self {
+        width: 100%;
+    }
 
-.travel {
-    text-align: center;
-    border-bottom: 1px solid gray;
-    padding-bottom: 10px;
-}
+    h2 {
+        font-size: 18px;
+        font-family: 'Ruda', sans-serif;
+        background: #003366;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1em;
+        padding: 10px;
+        opacity: .7;
+    }
 
-.world {
-    max-width: 100%;
-}
+    .contactinfo {
+        text-align: center;
+        padding: 10px;
+    }
 
-.pets {
-    text-align: center;
-}
+    h3 {
+        font-size: 20px;
+        color: gray;
+        letter-spacing: .3em;
+        font-family: 'Marcellus SC', serif;
+    }
 
-.petpic {
-    width: 45%;
-}
+    .button {
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid #003366;
+        width: 30%;
+        background: white;
+        color: #003366;
+    }
 
-.callie .peanut {
+    .travelinfo {
+        text-align: center;
+        padding: 10px;
+    }
 
-}
+    .favdest {
+        padding: 10px;
+    }
 
+    .world {
+        max-width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+    }
 
+    .photography {
+    }
+
+    .photo {
+        width: 45%;
+        margin: 2%;
+    }
+
+    footer {
+        background: #003366;
+        padding: 10px;
+        width: 100%;
+    }

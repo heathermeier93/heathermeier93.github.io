@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="mobile.css">
+<link href='http://fonts.googleapis.com/css?family=Marcellus+SC|Ruda:400,700' rel='stylesheet' type='text/css'>
 <html>
 <head>
     <title></title>
@@ -10,43 +11,57 @@
     <h1>Heather Meier</h1>
     <ul class="nav">
         <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#travel">Travel</a></li>
-        <li><a href="#pets">Pets</a></li>
+        <li><a href="#photography">Photography</a></li>
     </ul>
 </header>
 
-<div class="about">
+<div class="about" id="about">
     <div class="container">
+        <img class="self" src="selfportrait.jpg">
         <h2>About</h2>
-        <img class="me" src="me.jpg">
-        <p>Hello errrrbody! Name's Heather. That is all. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="aboutme">
+            Hello, I'm Heather. I'm 20 years young and I currently reside in
+            Chicago, IL with my wonderful boyfriend and my adorable cat. I'm currently studying
+            web design at The Starter League and love anything design oriented. My interests
+            include but are not limited to: travel, animals, arcitecture and photography.
+        </p>
+        <div class="contactinfo" id="contact">
+            <h3>Contact Me</h3>
+            <a class="button" href="#">E-mail</a>
+            <a class="button" href="#">Facebook</a>
+        </div>
     </div>
 </div>
 
-<div class="travel">
+<div class="travel" id="travel">
     <div class="container">
         <h2>Travel</h2>
         <img class="world" src="world.jpg">
-        <ol>Top 3 Favorite Desinations
-            <li>1. San Fransisco, CA</li>
-            <li>2. New York City, NY</li>
-            <li>3. Puerto Vallarta, MX</li>
-        </ol>
+        <div class="travelinfo">
+            <h3>Favorite Destinations:</h3>
+            <p class="favdest">
+                San Fransisco, California - New York City, New York -
+                Puerto Vallarta, Mexico - Punta Cana, Dominican Republic
+            </p>
+        </div>
     </div>
 </div>
 
-<div class="pets">
+<div class="photography" id="photography">
     <div class="container">
-        <h2>Pets</h2>
-        <div class="callie">
-            <img class="petpic" src="cat.jpg">
-            <h3>Callie</h3>
-        </div>
-        <div class="peanut">
-            <img class="petpic" src="rabbit.jpg">
-            <h3>Peanut</h3>
+        <h2>Photography</h2>
+        <img class="photo" src="flowers.jpg">
+        <img class="photo" src="tree.jpg">
+        <img class="photo" src="pier.jpg">
+        <img class="photo" src="fields.jpg">
     </div>
 </div>
+
+<footer>
+
+</footer>
 
 
 </body>
